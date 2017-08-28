@@ -41,4 +41,5 @@ todolist=# UPDATE todos SET details = 'Check tire pressure' WHERE id = 4;
 
 
 -- Write a DELETE statement to delete all completed todos.
+
 todolist=# DELETE FROM todos WHERE completed_at IS NOT NULL;
